@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Layout} from 'antd';
 import AppRoutes from '../routes/AppRoutes';
-import AppFooter from './footer/AppFooter';
+import AppFooter from './AppFooter';
 
 const Main = () => (
 	<div className="main">
