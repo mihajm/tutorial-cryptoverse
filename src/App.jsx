@@ -1,22 +1,14 @@
 import React from 'react';
-import {Switch, Route, Link} from 'react-router-dom';
-import {Layout, Typography, Space} from 'antd';
 
-import {AppNavbar} from './components';
+import Navbar from './components/navbar/Navbar';
+import Main from './components/main/Main';
 
 import './App.css';
 
 const App = () => (
 	<div className="app">
-		<div className="navbar">
-			<AppNavbar />
-		</div>
-		<div className="main">
-
-		</div>
-		<div className="footer">
-
-		</div>
+		<Navbar />
+		<Main />
 	</div>
 );
 
